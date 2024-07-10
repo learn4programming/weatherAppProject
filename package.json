@@ -1,4 +1,5 @@
 {
+  "homepage": "https://learn4programming.github.io/weatherAppProject/",
   "name": "weather-app",
   "private": true,
   "version": "0.0.0",
@@ -9,7 +10,7 @@
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d ./build"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.5.2",
